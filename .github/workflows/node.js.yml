@@ -31,11 +31,7 @@ jobs:
       uses: Azure/webapps-deploy@v2
       with:
        app-name: Githubactionsnodejs
-       publish-profile: ${{secrets.PUBLISH_PROFILE}}     
-
-
-
-     
+       publish-profile: ${{secrets.PUBLISH_PROFILE}}        
      
 
 
