@@ -30,7 +30,7 @@ jobs:
     - name: Azure WebApp
       uses: Azure/webapps-deploy@v2
       with:
-       app-name: Githubactionsnodejs
+       app-name: githubnodejsappdeploy
        publish-profile: ${{secrets.PUBLISH_PROFILE}}        
      
 
